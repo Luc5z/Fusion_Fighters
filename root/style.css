@@ -1,0 +1,190 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: #3d3d3d;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  .folha {
+    background-image: url(assets/Background_one_page.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Para centralizar a imagem */
+    position: relative; 
+    width: 800px;
+    height: 1000px;
+    border: 2px solid #ccc;
+    box-shadow: 0 50px 50px 0 rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 50px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
+}
+
+
+  
+  .conteudo {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    -webkit-text-stroke: 1px #000;
+  }
+  
+  p {
+    color: #fff;
+    text-shadow: 100px 100px 200px #000;
+    font-size: large;
+  }
+
+  p:hover{
+    scale: 1.1;
+  }
+
+  .personagem img:hover{
+    scale: 1.1;
+  }
+
+  .historia{
+    margin-top: 0px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .historia p{
+    font-weight: 400;
+    font-size: small;
+  }
+
+  #notebook{
+    width: 200px;
+    margin-top: 40px;
+  }
+
+  #alvaroDeCostas{
+    position:absolute;
+    margin-top: 30px;
+    z-index: 1;
+  }
+
+  .enemies{
+    margin-top: 50px;
+  }
+
+  .enemie{
+    width: 150px;
+  }
+
+  .animated-p {
+    margin-top: 50px;
+    position: absolute; /* Para permitir o movimento */
+    animation: moveText 2.5s infinite alternate; /* Definindo a animação */
+}
+
+.p-notAnimated{
+  margin-top: 80px;
+  /* animation: changeColor 2s infinite alternate; */
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(0); /* Começa do centro */
+    }
+    100% {
+        transform: translateX(350px); /* Move 200px para a direita */
+    }
+}
+
+@keyframes changeColor {
+  0% {
+    color: red;
+  }
+  33% {
+    color: green;
+  }
+  66% {
+    color: blue;
+  }
+  66% {
+    color: violet;
+  }
+  80% {
+    color: rgb(217, 255, 0);
+  }
+  100% {
+    color: red;
+  }
+}
+
+  
+  @media screen and (max-width: 600px) {
+    
+
+    .folha {
+      width: 100%;
+      height: 850px;
+      margin: 0;
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    .personagem{
+        margin-bottom: 30px;
+    }
+    
+    .personagem img{
+        width: 50px;
+    }
+
+    .historia{
+        margin-top: 50px;
+        align-items: center;
+        display:inline;
+      }
+
+    #p2{
+        display: none;
+    }
+
+    #notebook{
+        width: 150px;
+        margin-top: 0px;
+    }
+
+    #alvaroDeCostas {
+        margin-top: 250px;
+        width: 80px;
+    }
+
+    .p-notAnimated{
+      margin-top: 40px;
+    }
+
+    .enemies{
+      margin-top: 10px;
+    }
+  
+    .enemie{
+      width: 50px;
+    }
+  
+    .animated-p {
+      display: none;
+    }
+
+  }
+  

@@ -17,7 +17,6 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Enemys","order":7,"path":"folders/Sprites/Enemys.yy",},
     {"name":"Arquivo_conr","order":2,"path":"folders/Sprites/Enemys/Arquivo_conr.yy",},
-    {"name":"Player_alvaro","order":5,"path":"folders/Sprites/Player_alvaro.yy",},
     {"name":"Player","order":3,"path":"folders/Sprites/Player.yy",},
   ],
   "ResourceOrderSettings":[
@@ -25,9 +24,6 @@
     {"name":"obj_enemy_base","order":3,"path":"objects/obj_enemy_base/obj_enemy_base.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_battle_area","order":4,"path":"objects/obj_battle_area/obj_battle_area.yy",},
-    {"name":"alvaro_andando","order":1,"path":"sprites/alvaro_andando/alvaro_andando.yy",},
-    {"name":"alvaro_parado","order":2,"path":"sprites/alvaro_parado/alvaro_parado.yy",},
-    {"name":"alvaro_pulando","order":3,"path":"sprites/alvaro_pulando/alvaro_pulando.yy",},
     {"name":"area_de_batata","order":10,"path":"sprites/area_de_batata/area_de_batata.yy",},
     {"name":"inimigo1_atacando","order":3,"path":"sprites/inimigo1_atacando/inimigo1_atacando.yy",},
     {"name":"inimigo1_damage","order":2,"path":"sprites/inimigo1_damage/inimigo1_damage.yy",},
